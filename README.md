@@ -28,9 +28,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Main Page](Rating Component.png)
+![Rating Component](https://user-images.githubusercontent.com/101203567/217789388-1a65b8af-01a6-4d6e-b20d-db231394b695.png)
 
-![Thank You Page](Rating Component (1).png)
+![Rating Component (1)](https://user-images.githubusercontent.com/101203567/217789440-9e747033-c8a8-4b1f-bf32-ce76462b5b74.png)
 
 ### Links
 
