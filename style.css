@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+
+body{
+    position: relative;
+}
+
+.main{
+    position: relative;
+    width: 400px;
+    height: 375px;
+    margin: 80px auto;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    display: flexbox;
+}
+
+.thankyou{
+    position: relative;
+    width: 400px;
+    height: 375px;
+    margin: 80px auto;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    display: flexbox;
+}
+
+.hidden{
+    display: none;
+}
+
+.star{
+    background-color: transparent;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: 18px;
+    top: 17px;
+}
+
+.circle-star{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: hsl(213, 22%, 24%);
+    border-radius: 50%;
+    left: 30px;
+}
+
+.circles{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: hsl(213, 22%, 24%);
+    border-radius: 50%;
+    left: 30px;
+}
+
+.circles:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    cursor: pointer;
+}
+
+#heading{
+    background-color: transparent;
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    font-weight: 700;
+    font-size: 25px;
+    left: 30px;
+    top: 60px;
+}
+
+#para{
+    width: 350px;
+    background-color: transparent;
+    color: hsl(217, 12%, 63%);
+    position: relative;
+    font-weight: 400;
+    font-size: 15px;
+    left: 30px;
+    top: 80px;
+}
+
+.ratings{
+    color: hsl(217, 12%, 63%);
+    display: flex;
+    background-color: transparent;
+    position: relative;
+    top: 100px;
+}
+
+.number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 22px;
+}
+
+button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    top: 120px;
+    padding: 10px;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 20px;
+    left: 30px;
+}
+
+button:hover{
+    cursor: pointer;
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
+
+.imageHead{
+    background-color: transparent;
+}
+
+.thankImg{
+    background-color: transparent;
+    position: relative;
+    left: 120px;
+    top: 40px;
+}
+
+#heading2{
+    background-color: transparent;
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    font-weight: 700;
+    font-size: 25px;
+    top: 85px;
+    text-align: center;
+}
+
+#para2{
+    padding: 0px 30px;
+    background-color: transparent;
+    color: hsl(217, 12%, 63%);
+    position: relative;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    top: 100px;
+}
+
+.finalRate{
+    padding: 5px;
+    background-color: hsl(213, 22%, 24%);
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    color: hsl(25, 97%, 53%);
+    position: relative;
+    top: 60px;
+    border-radius: 20px;
+}
+
+.rating{
+    background-color: hsl(213, 22%, 24%);
+}
+
+.attribution{
+    text-align: center;
+    color: aliceblue;
+}
+
+.attribution>a{
+    color: orange;
+}
+
+@media screen and (max-width: 460px) {
+    .main{
+        margin: 80px 30px;
+    }
+}

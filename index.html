@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Rating Component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Comfortaa&family=Concert+One&family=Edu+VIC+WA+NT+Beginner:wght@600&family=Fira+Sans&family=Fredoka+One&family=Oleo+Script&family=Overpass:wght@400;700&family=PT+Sans&family=PT+Sans+Narrow&family=Permanent+Marker&family=Poppins:wght@400;700&family=Raleway:wght@500&family=Righteous&family=Rubik+Maze&family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="circle-star" style="top: 30px">
+        <img class="star" src="./images/icon-star.svg" />
+      </div>
+      <div id="heading">How did we do?</div>
+      <div id="para">
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </div>
+      <div class="ratings">
+        <div onclick="selected(this)" class="circles number">1</div>
+        <div onclick="selected(this)" class="circles number">2</div>
+        <div onclick="selected(this)" class="circles number">3</div>
+        <div onclick="selected(this)" class="circles number">4</div>
+        <div onclick="selected(this)" class="circles number">5</div>
+      </div>
+      <button id="submitBtn">SUBMIT</button>
+    </div>
+    <div class="thankyou hidden">
+      <div class="imageHead">
+        <img class="thankImg" src="./images/illustration-thank-you.svg" />
+      </div>
+      <div class="finalRate">
+        You selected <span id="rating"></span> out of 5
+      </div>
+      <div id="heading2">Thank you!</div>
+      <div id="para2">
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don't hesitate to get in touch!
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/linpaws1364?tab=repositories">Swapnil Roy</a>.
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
